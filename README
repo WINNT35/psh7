@@ -1,0 +1,8 @@
+Ensure psh7.dll is in the same directory as inject.exe and run these commands as Administrator:
+
+taskkill /IM explorer.exe /F
+start explorer.exe
+inject.exe
+
+
+Initial approach inspired by aubymori.
